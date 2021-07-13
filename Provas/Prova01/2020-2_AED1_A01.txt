@@ -1,0 +1,62 @@
+Pontifícia Universidade Católica de Minas Gerais
+Instituto de Ciências Exatas e Informática
+Curso de Ciência da Computação
+Disciplina: Algoritmos e Estruturas de Dados I
+
+Exercício 01
+
+Matrícula:
+Nome     :
+
+Instruções
+
+- Desenvolver soluções para cada um dos enunciados abaixo,
+  segundo o modelo de programa no arquivo template.c anexo.
+- Os valores usados para testes poderão ser informados no
+  arquivo com formato texto (editável) inputs_001.txt, com
+  um valor apenas em cada linha.
+- Os resultados produzidos poderão ser guardados no arquivo
+  com formato texto outputs_001.txt, conforme modelo anexo.
+- É permitida a consulta ao material disponível.
+- As soluções entregues serão verificadas e poderão ser
+  desconsideradas caso houver indicações de similaridade.  
+- O tempo previsto para cada questão é de 30 minutos.
+  Um tempo adicional de mais 30 minutos será oferecido
+  em atendimento às solicitações apresentadas pelo NAI.
+- A entrega do exercício deverá ser feita pelo CANVAS.
+ 
+1.) Implementar o jogo do "Para cima, para baixo":
+
+    Um dos jogadores será o computador e
+    usará um valor aleatorio gerado no intervalo [1:100).
+    Serão permitidas até sete (7) tentativas
+    para poder acertar o valor determinado.
+    A cada tentativa do outro jogador,
+    o computador responderá
+    "OK"   - se houver acerto
+    "UP"   - se o valor informado foi menor que o gerado
+    "DOWN" - se o valor informado foi maior que o gerado
+     Verificar possibilidades de erros.
+
+2.) Calcular o valor da soma indicada abaixo:
+
+            1     1     3     6     10     15     21
+    soma = ___ + ___ + ___ - ___ + ____ + ____ - ____ + ...
+
+            1     2     4     8     16     32     64
+
+    para certo número de parcelas a ser informado pelo teclado.
+    Verificar possibilidades de erros.
+
+3.) Fazer um programa que utilize uma função para verificar
+    se uma placa de veículo está de acordo com o padrão do
+    Mercosul: três letras seguidas, um número, uma letra e
+    depois mais dois números.
+    Testar várias placas e encerrar com a placa "AAA0A00".
+    Se a placa for válida, a função deverá retornar 1;
+    caso contrário, deverá retornar 0.
+    Mostrar, ao final, a quantidade de placas testadas,
+    a quantidade de placas aceitas e a porcentagem de
+    placas rejeitadas.
+    
+

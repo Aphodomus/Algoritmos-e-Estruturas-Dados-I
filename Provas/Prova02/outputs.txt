@@ -1,0 +1,27 @@
+
+Exercicio_02 - v.0.0 - 09/11/2020
+
+Matricula: ______ Nome: _________
+
+
+Opcoes:
+0 - parar
+1 - metodo 01
+2 - metodo 02
+3 - metodo 03
+
+Qual a sua opcao? 
+Metodo02
+
+Exercicio_02 - v.0.0 - 09/11/2020
+
+Matricula: ______ Nome: _________
+
+
+Opcoes:
+0 - parar
+1 - metodo 01
+2 - metodo 02
+3 - metodo 03
+
+Qual a sua opcao? 

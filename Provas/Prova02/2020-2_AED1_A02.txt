@@ -1,0 +1,71 @@
+Pontifícia Universidade Católica de Minas Gerais
+Instituto de Ciências Exatas e Informática
+Curso de Ciência da Computação
+Disciplina: Algoritmos e Estruturas de Dados I
+
+Exercício 02
+
+Matrícula:
+Nome     :
+
+Instruções
+
+- Desenvolver soluções para cada um dos enunciados abaixo,
+  segundo o modelo de programa no arquivo template.c anexo.
+  Testes iniciais já foram providenciados e deverão ser
+  mantidos. Outros poderão ser acrescentados.
+- Os valores usados para testes deverão ser informados por
+  arquivos com formato texto (editável) inputs_001.txt, 
+  com apenas um valor em cada linha.
+- Um arquivo para compilar e testar automaticamente 
+  o programa tambem segue em anexo, e para utilizar 
+  esse recurso bastara' digitar:
+
+  mk template inputs_001.txt outputs.txt
+
+- Os resultados produzidos deverão ser guardados em arquivos
+  com formato texto outputs_001.txt, conforme modelo anexo.
+- É permitida a consulta ao material disponível.
+- As soluções entregues serão verificadas e poderão ser
+  desconsideradas caso houver indicações de similaridade.
+- O tempo previsto para cada questão é de 30 minutos.
+  Um tempo adicional de mais 45 minutos será oferecido
+  em atendimento às solicitações apresentadas pelo NAI.
+- A entrega do exercício deverá ser feita pelo CANVAS.
+
+01.) Definir uma função para:
+     - organizar um arranjo (3) com a intercalação de outros dois;
+     - receber como parâmetros dois arranjos (1 e 2)
+       contendo valores reais e suas respectivas quantidades de dados;
+     - retornar a quantidade de dados resultante do arranjo
+       que contiver a intercalação.
+  OBS.: Considerar a possibilidade dos arranjos terem tamanhos diferentes.
+        Ao intercalar, os valores em posições similares deverão ser
+        organizados de modo que o menor valor sempre venha primeiro;
+        e, se houver valores iguais, apenas um deles deverá ser guardado.
+
+  Exemplo:   int n3 = intercalar ( arranjo3, n1, arranjo1, n2, arranjo2 );
+
+02.) DEFINIR um procedimento para:
+     - ler arquivo do tipo texto contendo nomes de pessoas;
+     - dividir o arquivo em dois outros:
+       o primeiro com os sobrenomes das pessoas;
+       e o segundo com o prenome das pressoas
+     - os nomes dos arquivos (original e dos novos)
+       serão fornecidos como parâmetros;
+     - não será informada a quantidade de dados no arquivo original.
+  OBS.: Considerar a possibilidade de haver erros nas entradas de dados.
+
+  Exemplo:  separarNomes ( "PRENOMES.TXT", "SOBRENOMES.TXT", "NOMES.TXT" );
+
+03.) DEFINIR métodos para:
+     - receber uma matriz de inteiros e suas dimensões como parâmetros;
+     - usar função para achar a soma de valores em certa coluna;
+     - determinar a coluna com a menor soma de valores;
+     - colocar a coluna com a menor soma como sendo a primeira (0).
+  OBS.: Considerar a possibilidade de haver erros nas entradas de dados.
+
+  Exemplo:  menorSomaPrimeiro ( linhas, colunas, matriz );
+
+
+

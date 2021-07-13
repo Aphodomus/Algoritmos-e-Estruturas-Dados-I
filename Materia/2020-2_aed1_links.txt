@@ -1,0 +1,116 @@
+PUC-Minas
+Instituto de Ciências Exatas e Informática
+Curso de Ciência da Computação
+Algoritmos e Estruturas de Dados I
+
+Links recomendados
+
+Compilador para as linguagens C/C++
+
+1.) Ambiente mais atual e próximo ao de laboratório 
+    (versão 9.3.0 - 20200720)
+
+    https://www.msys2.org
+    https://github.com/msys2/msys2-installer/releases/tag/2020-07-20
+   
+2.) Ambiente mais atual e portátil para Windows 10
+    (versão 10.2.0 - 30/07/2020)
+ 
+    https://github.com/brechtsanders/winlibs_mingw/releases/download/10.2.0-7.0.0-r2/winlibs-x86_64-posix-seh-gcc-10.2.0-mingw-w64-7.0.0-r2.7z
+    https://github.com/brechtsanders/winlibs_mingw/releases/download/10.2.0-7.0.0-r2/winlibs-x86_64-posix-seh-gcc-10.2.0-mingw-w64-7.0.0-r2.zip
+
+    OBSERVAÇÃO:
+    Para minimizar efeitos negativos devidos às diferenças de versões, 
+    é recomendado atualizar o compilador para a versões mais recentes.
+
+    Recomendável ajustar a variável de ambiente PATH
+    para indicar os locais padrões correspondentes aos
+    arquivos executáveis (\bin) e bibliotescas (\include).
+
+3.) Compilador GCC para Ubuntu Linux e similares
+
+$ sudo apt-get update
+$ sudo apt-get upgrade
+$ sudo apt-get install build-essential
+
+$ sudo apt-get install manpages-dev man-db manpages-posix-dev
+
+4.) Compiladores online:
+
+https://repl.it        - recomendável fazer registro
+
+https://www.onlinegdb.com/online_c_compiler
+https://www.onlinegdb.com/online_c++_compiler
+https://www.jdoodle.com/
+https://www.tutorialspoint.com/compile_c_online.php
+https://www.codechef.com/ide
+https://www.ideone.com
+https://www.compileonline.com
+https://codenvy.io
+https://paiza.io
+
+    OBSERVAÇÃO:
+    Compiladores online são opções para testes rápidos.
+    Recomenda-se identificar a versão do compilador 
+    antes de uso, para que o reaproveitamento futuro
+    do código em outro sistema possa ser viabilizado.
+
+
+Ambiente integrado para desenvolvimento (IDE)
+
+1.) Ambiente portátil para Windows 10 e Linux
+    (versão 2.0.6_04 - 21/05/2020)
+
+    https://jgrasp.org
+
+2.) Ambiente portátil para Windows 10 e Linux
+
+    https://vscodium.com
+
+ 
+
+Para artigos introdutórios:
+
+
+https://raw.githubusercontent.com/tscheffl/ThinkC/master/PDF/Think-C.pdf
+
+
+http://www.greenteapress.com/thinkcpp/thinkCScpp.pdf
+
+
+FLORES, Fabiana Figueira Sanches
+Desenvolvimento Ético de Software: a impossibilidade de
+desconsideração da Segurança Computacional na produção de software
+e a premência de mudança na conduta da Indústria, da Academia e dos
+desenvolvedores. UFPE-MEI. 2019. 353p.
+https://attena.ufpe.br/bitstream/123456789/36045/1/TESE Fabiana Figueira Sanches Flores.pdf
+Acessado em 30/07/2020.
+
+
+MARCONDES, C. H.; MENDONÇA, M. A. R.; MALHEIROS, L. R. 
+Uma proposta de modelo de representação do conhecimento 
+contido no texto de artigos científicos publicados na web 
+em formato legível por programas. Disponível em 
+https://brapci.inf.br/index.php/res/v/5968.
+Acessado em 30/07/2020.
+
+
+Dicas úteis:
+
+Opcionais:
+
+http://flowgorithm.org/download/index.htm
+    Flowgorithm v2.22
+    Ferramenta para edição e testes de fluxogramas   (opcional)
+
+
+http://findbugs.sourceforge.net/downloads.html
+    FindBugs v3.0.1
+    Aperfeiçoar código escrito em Java (opcional)
+
+
+Qualquer dúvida sobre o uso dos programas acima deverá 
+ser encaminhada ao professor, aos monitores ou pessoal 
+técnico do Centro de Recursos Computacionais (CRC)
+do Instituto de Ciências Exatas e Informática.
+ 
